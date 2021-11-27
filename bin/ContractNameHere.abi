@@ -1,0 +1,1 @@
+[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[{"internalType":"uint256","name":"_blockNumber","type":"uint256"}],"name":"globalFunctions","outputs":[],"stateMutability":"payable","type":"function"}]
