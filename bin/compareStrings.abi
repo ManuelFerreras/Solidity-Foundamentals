@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"string","name":"_firstString","type":"string"},{"internalType":"string","name":"_secondString","type":"string"}],"name":"compareStringsFunction","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"pure","type":"function"}]

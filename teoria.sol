@@ -12,11 +12,11 @@ pragma solidity >=0.8.0 <0.9.0;
 
 // Formato natspec para comentar en solidity //
 
-/// @title <Título del Contrato>
-/// @author <Autor del Contrato>
-/// @notice <Explicar lo que hace el contrato o la Función>
-/// @dev <Detalles Adicionales Sobre el Contrato o Función>
-/// @param <nombre_parametro> <Describir para qué sirve el valor de retorno de una funcion>
+// /// @title <Título del Contrato>
+// /// @author <Autor del Contrato>
+// /// @notice <Explicar lo que hace el contrato o la Función>
+// /// @dev <Detalles Adicionales Sobre el Contrato o Función>
+// /// @param <nombre_parametro> <Describir para qué sirve el valor de retorno de una funcion>
 
 
 // Comentario de una linea
@@ -265,6 +265,127 @@ contract timeVariables {
 
 contract variableCast {
 
+    // We can transform a UINT or INT to and from BYTES with <x> n° of bits.
+    //
+    // Syntax:
+    //      uint<x>(<int_variable<y>>);
+    //      int<x>(<uint_variable<y>>);
 
+    // ex:
+    uint8 uintTo8Bits = 42;
+
+    // Cast
+    int8 castEx = int8(uintTo8Bits);
+
+}
+
+
+
+contract modifiers {
+
+    // public
+    //
+    // Creates a getter function to a variable so that it can be seen by anyone.
+    uint256 public publicNum = 5;
+
+
+    // private
+    //
+    // Creates variables which are only accesible from inside the contract.
+    uint256 private privateNum = 5;
+
+
+    // internal
+    //
+    // Creates variables which are only accesible internally (inheritants contracts).
+    uint256 internal internalNum = 5;
+
+
+    // memory
+    //
+    // Temporary stored variables.
+
+    // storage
+    //
+    // Stored permanently into the blockchain.
+
+
+    // payable
+    //
+    // Only available to address type variables. Allows to send and receive ether.
+
+}
+
+
+
+contract compareStrings {
+
+    // Compare Strings with abi.encodePacked and keccak256.
+    function compareStringsFunction(string memory _firstString, string memory _secondString) public pure returns(bool) {
+
+        bytes32 hash_first = keccak256(abi.encodePacked(_firstString));
+        bytes32 hash_second = keccak256(abi.encodePacked(_secondString));
+
+        if (hash_first == hash_second) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+}
+
+
+
+contract mathematicOperators {
+
+    // Operate Numbers:
+
+
+    // Add '+'
+
+    // Substract '-'
+
+    // Multiply '*'
+
+    // Divide '/'
+
+    // Module '%'
+
+    // Exponential '**'
+
+    
+
+
+    // Compare Numbers:
+
+
+    // Greater '>'
+
+    // Lower '<'
+
+    // Greater or Equals '>='
+
+    // Lower or Equals '<='
+
+    // Equals '=='
+
+    // Not Equals '!='
+
+
+
+
+    // Compare Booleans
+
+
+    // Negation '!'
+
+    // And '&&'
+
+    // Or '||'
+
+    // Equals '=='
+
+    // Not Equals '!='
 
 }

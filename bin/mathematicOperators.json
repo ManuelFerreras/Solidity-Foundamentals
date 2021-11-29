@@ -1,11 +1,11 @@
 {
-    "contractName": "VariablesDefinition",
+    "contractName": "mathematicOperators",
     "abi": [],
-    "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/manue/OneDrive/Escritorio/Books/Curso-Solidity-Udemy/teoria.sol\":\"VariablesDefinition\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/manue/OneDrive/Escritorio/Books/Curso-Solidity-Udemy/teoria.sol\":{\"keccak256\":\"0xb578f17db9c2d0aaa1ae78e690cc8fff22f58392bb6226137528cd63d3aeafbd\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://38a36678f289505eb4ef455b42a37db2b79fb314d02ef7b19b3318b94f7c41f5\",\"dweb:/ipfs/QmcVkDaVGxmA23vN4f8UK14QA9VoGRZepiKjCJYLnLDka8\"]}},\"version\":1}",
-    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122034e2cf8ae2294ed11b18c8dfa6d64583b18ccc1485ca636586b36c5b44d5c12164736f6c634300080a0033",
-    "deployedBytecode": "6080604052600080fdfea264697066735822122034e2cf8ae2294ed11b18c8dfa6d64583b18ccc1485ca636586b36c5b44d5c12164736f6c634300080a0033",
-    "sourceMap": "4056:1103:0:-:0;;;;;;;;;;;;;;;;;;;",
-    "deployedSourceMap": "4056:1103:0:-:0;;;;;",
+    "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/manue/OneDrive/Escritorio/Books/Curso-Solidity-Udemy/teoria.sol\":\"mathematicOperators\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/manue/OneDrive/Escritorio/Books/Curso-Solidity-Udemy/teoria.sol\":{\"keccak256\":\"0xb578f17db9c2d0aaa1ae78e690cc8fff22f58392bb6226137528cd63d3aeafbd\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://38a36678f289505eb4ef455b42a37db2b79fb314d02ef7b19b3318b94f7c41f5\",\"dweb:/ipfs/QmcVkDaVGxmA23vN4f8UK14QA9VoGRZepiKjCJYLnLDka8\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a9abc2708ddd1237bacc8704796ce1f6287587bb5c829a859c3d4fdfb1f62c5364736f6c634300080a0033",
+    "deployedBytecode": "6080604052600080fdfea2646970667358221220a9abc2708ddd1237bacc8704796ce1f6287587bb5c829a859c3d4fdfb1f62c5364736f6c634300080a0033",
+    "sourceMap": "7713:534:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "7713:534:0:-:0;;;;;",
     "sourcePath": "c:/Users/manue/OneDrive/Escritorio/Books/Curso-Solidity-Udemy/teoria.sol",
     "compiler": {
         "name": "solc",
