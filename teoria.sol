@@ -10,6 +10,25 @@ pragma solidity >=0.8.0 <0.9.0;
 
 
 
+// Formato natspec para comentar en solidity //
+
+/// @title <Título del Contrato>
+/// @author <Autor del Contrato>
+/// @notice <Explicar lo que hace el contrato o la Función>
+/// @dev <Detalles Adicionales Sobre el Contrato o Función>
+/// @param <nombre_parametro> <Describir para qué sirve el valor de retorno de una funcion>
+
+
+// Comentario de una linea
+
+/*
+Comentario
+Multi
+linea
+*/
+
+
+
 //  Create a contract:
 contract ContractNameHere {
 
@@ -193,4 +212,59 @@ contract VariablesDefinition {
     // Address Variables
     address addressVariable; // 20 bytes address
     
+}
+
+
+
+contract enumDataType {
+
+    // enums are a way of creating a custom data type
+
+    // Syntax:
+    //      enum <enum name> {<enum values>}; // Create an enum
+    //
+    //      <enum name> <variable name>; // Declare a custom enum type variable
+
+    enum enumVariable {ON, OFF} 
+    // Variable enum
+    enumVariable state;
+
+    // Sets STATE to ON by enum value.
+    function turnOn() public {
+        state = enumVariable.ON;
+    }
+
+    // Sets STATE to OFF by enum value index.
+    function turnOff() public {
+        state = enumVariable(1);
+    }
+
+}
+
+
+
+contract timeVariables {
+
+    // block.timestamp;
+    // <x> seconds;
+    // <x> minutes;
+    // <x> hours;
+    // <x> days;
+    // <x> weeks;
+
+    uint256 nowTimestamp = block.timestamp;
+    uint256 secondsVariable = 50 seconds;
+    uint256 minutesVariable = 50 minutes;
+    uint256 hoursVariable = 50 hours;
+    uint256 daysVariable = 50 days;
+    uint256 weeksVariable = 50 weeks;
+    
+}
+
+
+
+contract variableCast {
+
+
+
 }
